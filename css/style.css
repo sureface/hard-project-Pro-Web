@@ -1,0 +1,342 @@
+@import 'fonts.css';
+
+
+:root{
+    --m-l:'montserrat-light';
+    --r-b:'raleway-bold';
+    --r-e-b:'raleway-extrabold';
+    --r-m:'raleway-medium';
+    --r-r:'raleway-regular';
+    --r-s: 'raleway-semibold';
+}
+ 
+
+
+body{
+    min-width: 320px;
+    font-family: var(--m-l);
+    color: #8c8c8c;
+}
+
+
+/* *********************************************************** */
+/* --------------------- header start ------------------------ */
+
+.header__menu{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 10;
+}
+
+header{
+    background: url(../img/fon-one.jpg) no-repeat center center / cover;
+    height: 100vh;
+    position: relative;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #191919;
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.header__logo{
+    font-size: 30px;
+    color: #191919;
+}
+
+.header__text-title{
+    font-size: 35px;
+    color: #1d1d1d;
+}
+
+.header__text-p{
+    font-size: 15px;
+    color: #787878;
+    line-height: 25px;
+    margin-top: 31px;
+    margin-bottom: 53px;
+}
+
+
+.header__text-button{
+    font-size: 12px;
+    color: aliceblue;
+    text-transform: uppercase;
+    border: none;
+    background: #007d2f;
+    padding: 22px 45px;
+    transition: 0.5s;
+}
+
+
+.header__text-button:hover{
+    background: #0ab904;
+}
+
+.header__text{
+    margin-top: 30%;
+}
+
+
+/* ********************************************************** */
+/* ----------------------- about start ---------------------- */
+
+.about{
+    padding-top: 92px;
+    padding-bottom: 42px;
+}
+
+.about__title{
+    font-size: 34px;
+    color: #191919;
+}
+
+.about__p{
+    margin-top: 40px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    color: #787878;
+}
+
+/* *********************************************************** */
+/* ---------------------- skills start ----------------------- */
+
+.skills__img{
+    width: 100%;
+}
+
+.skills__row{
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+.skills__col{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.skills__title{
+    font-size: 30px;
+    color: #171717;
+}
+
+
+.skills__design, .skills__web, .skills__marketing{
+    font-size: 12px;
+    color: #000000;
+    text-transform: uppercase;
+    margin-top: 41px;
+}
+
+.skills__design::after, .skills__web::after, .skills__marketing::after{
+    content: '';
+    display: block;
+    width: 100%;
+    height: 3px;
+    background: linear-gradient(to right, #007d2f 75%, #d8d8d8 25%);
+    margin-top: 20px;
+}
+
+.skills__web::after{
+    background: linear-gradient(to right, #007d2f 90%, #d8d8d8 10%);
+}
+
+.skills__marketing::after{
+    background: linear-gradient(to right, #007d2f 65%, #d8d8d8 35%);
+}
+
+.skills{
+    background: #f8f9f9;
+}
+
+.skills__professional{
+    padding: 166px 55px 0 130px;
+}
+
+/* *********************************************************** */
+/* ---------------------- icon start ------------------------- */
+
+.icon{
+    padding-top: 77px;
+    background: #007d2f;
+}
+
+.icon__logo-fal{
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.icon__logo-nul{
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 900;
+    margin: 13px 0 15px 0;
+}
+
+
+.icon__logo-project{
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.col-lg-3{
+    padding-right: 0px !important;
+    padding-left: 0px !important;
+}
+
+.boxchala{
+    width: 100%;
+}
+.row {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
+
+.allpic{
+    margin-top: 80px;
+}
+
+.col-lg-12{
+    padding-right:0px !important;
+     padding-left:0px !important;
+}
+
+
+.boxh{
+    text-align: center;
+}
+
+
+.boxh h3{
+    padding:46px 0 40px ;
+    font-size: 21.13px;
+}
+
+/* *********************************************************** */
+
+
+
+
+
+
+
+
+
+
+/* ************************** main start ********************************* */
+.logoIcon{
+    background: #f5f5f5;
+    padding: 50px 0 100px;
+}
+.logoIcon__fab{
+    color: #666666 ;
+    margin-top: 50px;
+}
+.logoIcon__text{
+    font-size: 17px;
+    color: #191919;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin: 31px 0 19px;
+}
+.logoIcon__p{
+    font-size: 15px;
+    color: #787878;
+}
+
+/* ************************** main finish********************************* */
+
+
+
+/* ************************** gallery start********************************* */
+
+.gallery__icon{
+    position: relative;
+}
+.gallery__icon-img{
+    width: 100%;
+}
+.gallary__icon-button{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%; 
+    background: rgba(44, 8, 245, 0.178);
+    border: none;
+    color: #ffffff;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.gallery__icon:hover .gallary__icon-button{
+    opacity: 1;
+}
+
+.gallery__text{
+    width: 100%;
+    padding: 45px 0 40px;
+    background: #007d2f;
+    text-align: center;
+}
+.gallery__load{
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+
+/* ************************** gallery finish********************************* */
+
+
+/* ---------------------- media start ------------------------ */
+
+@media (max-width: 1226px){
+    .skills__professional {
+        padding: 19% 55px 0 130px;
+    }
+}
+
+@media (max-width: 1080px){
+    .skills__professional {
+        padding: 17% 55px 0 86px;
+    }
+}
+
+@media (max-width: 1000px){
+    .skills__design, .skills__web, .skills__marketing {
+        margin-top: 17px;
+    }
+}
+
+@media (max-width: 991px){
+    .navbar-nav {
+        background: #058800;
+        padding: 10px;
+        border-radius: 10px;
+        box-shadow: 2px 4px 16px 3px #8c8c8c;
+      }
+}
+
+@media (max-width: 797px){
+    .skills__title {
+        font-size: 25px;
+    }
+
+    .skills__design::after, .skills__web::after, .skills__marketing::after {
+        margin-top: 12px;
+    }
+}
+
+@media (max-width: 767px){
+    .skills__professional {
+        padding: 17% 10%;
+    }
+
+    .icon__logo-fal {
+       margin-top: 50px;
+    }
+}

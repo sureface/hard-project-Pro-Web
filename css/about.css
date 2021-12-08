@@ -1,0 +1,196 @@
+@import '../css/fonts.css';
+
+
+:root {
+    --m-l: 'montserrat-light';
+    --r-b: 'raleway-bold';
+    --r-e-b: 'raleway-extrabold';
+    --r-m: 'raleway-medium';
+    --r-r: 'raleway-regular';
+    --r-s: 'raleway-semibold';
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--r-m);
+}
+
+p {
+    font-family: var(--r-r);
+}
+
+a {
+    color: #bcbcbc;
+}
+
+a:hover {
+    color: #bcbcbc;
+    text-decoration: none;
+}
+
+.textcolor {
+    color: #bcbcbc;
+}
+
+.footer__padding-bg {
+    padding: 107px 0 94px;
+}
+
+/* ///////////////////////////////// header start ///////////////////////////////////// */
+
+
+.paddingbkk {
+    padding: 115px 323px;
+}
+
+.colorbkk {
+    background: #323232;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ///////////////////////////////// header finish ///////////////////////////////////// */
+
+/* ///////////////////////////////// section start ///////////////////////////////////// */
+
+
+.icon {
+    padding: 77px 0;
+    background: #007d2f;
+}
+
+.icon__logo-fal {
+    font-size: 50px;
+    color: #ffffff;
+}
+
+.icon__logo-nul {
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: 900;
+    margin: 13px 0 15px 0;
+}
+
+
+.icon__logo-project {
+    font-size: 12px;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+
+.bgbkk {
+    background: #f5f5f5;
+}
+
+.pbkk {
+    padding: 138px 110px;
+}
+
+.sectioon__h3 {
+    margin-bottom: 39px;
+    font-size: 30px;
+}
+
+.section__p {
+    margin-bottom: 37px;
+    line-height: 24px;
+    font-size: 16px;
+    width: 465px;
+}
+
+.imgbkk {
+    background: url(../img/man-lough.jpg) no-repeat center center / cover;
+    width: 100vh;
+}
+
+/* ///////////////////////////////// section finish ///////////////////////////////////// */
+
+/* ///////////////////////////////// main satrt ///////////////////////////////////// */
+
+.allheader {
+    padding: 103px 304px;
+}
+
+.main__text-botton {
+    font-size: 12px;
+    font-family: var(--r-m);
+    color: aliceblue;
+    text-transform: uppercase;
+    border: none;
+    background: #007d2f;
+    padding: 22px 43px;
+    transition: 0.5s;
+}
+
+
+.main__text-botton:hover {
+    background: #0ab904;
+}
+
+.main__h2 {
+    margin-bottom: 40px;
+}
+
+.main_p {
+    line-height: 24px;
+    margin-bottom: 41px;
+}
+
+/* ///////////////////////////////// main finish ///////////////////////////////////// */
+
+
+/* ///////////////////////////////// footer start ///////////////////////////////////// */
+
+.block__3 {
+    display: flex;
+}
+
+.block__3 ul li a {
+    margin-right: 45px;
+}
+
+.box a {
+    margin-right: 37px;
+}
+
+.footer__bg {
+    background: #000000;
+}
+
+
+
+/* ///////////////////////////////// footer finish ///////////////////////////////////// */
+
+/* ///////////////////////////////// media start ///////////////////////////////////// */
+
+@media (max-width: 767px) {
+    .icon__logo-fal {
+        margin-top: 50px;
+    }
+}
+
+/* ///////////////////////////////// media finish ///////////////////////////////////// */
